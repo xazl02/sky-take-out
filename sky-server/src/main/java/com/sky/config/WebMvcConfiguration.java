@@ -58,7 +58,7 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
     }
 
     /**
-     * 设置静态资源映射
+     * 设置静态资源映射    就是静态资源被拦截了，静态资源映射就相当于是给指定目录或者文件放行
      * @param registry
      */
     protected void addResourceHandlers(ResourceHandlerRegistry registry) {
